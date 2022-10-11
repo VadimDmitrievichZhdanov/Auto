@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class wakeUpNeo {
 
-    // Класс в котором можно узнать жив ли ты ещё и воремя ли ты проснулся.
+    // Класс в котором можно узнать жив ли ты ещё и вовремя ли ты проснулся.
     public static void main(String[] args) {
         Random random = new Random();
         boolean alive = random.nextBoolean();

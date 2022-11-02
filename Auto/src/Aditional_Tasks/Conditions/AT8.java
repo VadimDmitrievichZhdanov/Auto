@@ -20,8 +20,18 @@ public class AT8 {
         System.out.println(" Taburetka: " + tovar3 + " Russian rubles");
         System.out.println("vvedite nomer tovara k pokupke");
         int nomer = sc.nextInt();
+        boolean x = false;
+        while (!x) {
+            if ((nomer > 3) | (nomer < 1)) {
+                System.out.println("tut tri tovara vsego, ti chto, do treh schitat ne umeesh??? pishi cifru 1 ili 2, ili 3");
+                nomer = sc.nextInt();
+            } else {
+                x = true;
+            }
+        }
         System.out.println("Plati denga");
         int denga = sc.nextInt();
+
         switch (nomer) {
             case (1):
                 if (denga > tovar1) {
@@ -34,21 +44,19 @@ public class AT8 {
                 break;
             case (2):
                 if (denga > tovar2) {
-                    System.out.println("Sdacha: " + (denga - tovar2) + " Prodano!");}
-                else if (denga < tovar2) {
+                    System.out.println("Sdacha: " + (denga - tovar2) + " Prodano!");
+                } else if (denga < tovar2) {
                     System.out.println("Malo denyak! Nishebrod, Uhodi!");
-                }
-                else {
+                } else {
                     System.out.println("Spasibo chto bez sdachi. Prodano! ");
                 }
                 break;
             case (3):
                 if (denga > tovar3) {
-                    System.out.println("Sdacha: " + (denga - tovar3) + " Prodano!");}
-                else if (denga < tovar3) {
+                    System.out.println("Sdacha: " + (denga - tovar3) + " Prodano!");
+                } else if (denga < tovar3) {
                     System.out.println("Malo denyak! Nishebrod, Uhodi!");
-                }
-                else {
+                } else {
                     System.out.println("Spasibo chto bez sdachi. Prodano! ");
                 }
                 break;

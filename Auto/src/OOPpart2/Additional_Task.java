@@ -34,6 +34,7 @@ public class Additional_Task {
                 case (3) -> age = sc.nextInt();
                 case (4) -> System.out.println(name + "\n" + surname + "\n" + age);
                 case (0) -> x = 300;
+                default -> System.out.println("wrong");
             }
         }
     }

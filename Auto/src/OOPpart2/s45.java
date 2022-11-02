@@ -19,14 +19,20 @@ public class s45 {
 
         System.out.print("Please enter your score: ");
         int score = new Scanner(System.in).nextInt();
-      //  for  ((score < 0) | (score > 100)) {
-            System.out.println("incorrect value");
-            System.out.print("Please enter your score: (0 - 100) ");
+        boolean x = false;
+        while (!x) {
+            if ((score < 0) | (score > 100)) {
+                System.out.println("incorrect value, try again");
+                score = new Scanner(System.in).nextInt();
+                } else {
+                x = true;
+            }
+        }
 
             if (score >= 70) {
-                System.out.println("Congrats! You’ve passed the test!");
+                System.out.println("Congrats! You've passed the test!");
             } else {
-                System.out.println("Sorry, you’ve failed the test.");
+                System.out.println("Sorry, you've failed the test.");
             }
         }
     }

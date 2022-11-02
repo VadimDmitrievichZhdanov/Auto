@@ -26,10 +26,11 @@ public class Additional_Task {
 
         while (x != 300) {
 
-            input = sc.nextInt();
+            input = Integer.parseInt(sc.next());
+
             switch (input) {
-                case (1) -> name = sc.nextLine();
-                case (2) -> surname = sc.nextLine();
+                case (1) -> name = sc.next();
+                case (2) -> surname = sc.next();
                 case (3) -> age = sc.nextInt();
                 case (4) -> System.out.println(name + "\n" + surname + "\n" + age);
                 case (0) -> x = 300;

@@ -64,6 +64,5 @@ public class AT8 {
                 System.out.println("Net v prodaje");
                 break;
         }
-
     }
 }

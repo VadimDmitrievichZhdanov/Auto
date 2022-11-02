@@ -1,7 +1,7 @@
-package Aditional_Tasks.Cycles;
+package Additional_Tasks.Cycles;
 
 import java.util.Scanner;
-import java.util.Arrays;
+
 //        5. Пользователь вводит строку. Выводим в консоль эту строку посимвольно (одна строка –
 //        один символ)
 public class Cycle5 {

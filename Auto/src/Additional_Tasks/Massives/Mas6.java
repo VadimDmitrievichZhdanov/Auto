@@ -1,4 +1,4 @@
-package Aditional_Tasks.Massives;
+package Additional_Tasks.Massives;
 //6. Дан двумерный массив 10х10 с целыми числами. Вывести в консоль все числа по
 //        диагонали от [0][0] до [10][10]
 

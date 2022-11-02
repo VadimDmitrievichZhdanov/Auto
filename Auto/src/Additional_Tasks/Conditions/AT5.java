@@ -1,4 +1,4 @@
-package Aditional_Tasks.Conditions;
+package Additional_Tasks.Conditions;
 //        5. Пользователь вводит в консоли три числа, выводим самое большое из них.
 import java.util.Scanner;
 public class AT5 {

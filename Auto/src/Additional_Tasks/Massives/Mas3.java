@@ -1,4 +1,4 @@
-package Aditional_Tasks.Massives;
+package Additional_Tasks.Massives;
 
 import java.util.Random;
 

@@ -1,4 +1,4 @@
-package Aditional_Tasks.Conditions;
+package Additional_Tasks.Conditions;
 // 4. Пользователь вводит в консоли четыре числа. Рассчитываем и выводим в консоль
 //        количество отрицательных и положительных чисел
 

@@ -45,12 +45,10 @@ public class Triangle implements Shape {
     }
 
     public static void main(String[] args) {
-        Triangle t567 = new Triangle(5,6,7);
-        Triangle t8910 = new Triangle(8,9,10);
-        double area567 = t567.getArea();
-        double area8910 = t8910.getArea();
-        System.out.println(area567);
-        System.out.println(area8910);
+        Triangle t567 = new Triangle(5, 6, 7);
+        Triangle t8910 = new Triangle(8, 9, 10);
+        System.out.println(t8910.getArea());
+        System.out.println(t567.getArea());
     }
 }
 

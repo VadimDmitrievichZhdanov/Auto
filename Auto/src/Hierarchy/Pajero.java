@@ -1,4 +1,4 @@
 package Hierarchy;
 
-public class Pajero extends FrameJeep{
+public class Pajero extends FrameJeep {
 }

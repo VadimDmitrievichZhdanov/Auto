@@ -1,6 +1,6 @@
 package Hierarchy;
 
-public class FrameJeep extends Jeep{
+public class FrameJeep extends Jeep {
     @Override
     public void driveOn() {
         super.driveOn();
@@ -12,6 +12,7 @@ public class FrameJeep extends Jeep{
         super.changeGear();
         // ADD 2 lines of code
     }
+
     @Override
     public void driveTerrainType() {
         System.out.println("Asphalt");

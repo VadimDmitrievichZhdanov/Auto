@@ -1,12 +1,15 @@
 package Interfaces;
 
-public class Rectangle implements Shape{
+public class Rectangle implements Shape {
 
-    public Rectangle(){
+    private double length;
+    private double high;
+
+    public Rectangle() {
         length = 0;
     }
 
-    public Rectangle(double _length, double _high){
+    public Rectangle(double _length, double _high) {
         length = _length;
         high = _high;
     }
@@ -16,22 +19,19 @@ public class Rectangle implements Shape{
         return length * high;
     }
 
-    public void setLength(double length) {
-        this.length = length;
-    }
-
     public double getLength() {
         return length;
     }
 
-    public void setHigh(double high) {
-        this.high = high;
+    public void setLength(double length) {
+        this.length = length;
     }
 
     public double getHigh() {
         return high;
     }
 
-    private double length;
-    private double high;
+    public void setHigh(double high) {
+        this.high = high;
+    }
 }

@@ -1,4 +1,4 @@
 package Hierarchy;
 
-public class LotusEletre extends SUV{
+public class LotusEletre extends SUV {
 }

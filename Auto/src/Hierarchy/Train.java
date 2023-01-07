@@ -1,6 +1,6 @@
 package Hierarchy;
 
-public class Train implements Drive{
+public class Train implements Drive {
     @Override
     public void driveOn() {
 

@@ -1,6 +1,6 @@
 package Hierarchy;
 
-public class Car implements Drive{
+public class Car implements Drive {
     @Override
     public void driveOn() {
         // 100 lines of code (90% call private and protected)
@@ -16,8 +16,7 @@ public class Car implements Drive{
         changeGear();
     }
 
-    protected void changeGear()
-    {
+    protected void changeGear() {
         // 30 lines of code
     }
 }

@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 
 public class newMain {
-    static public ArrayList<Drive> getEngines(){
+    static public ArrayList<Drive> getEngines() {
         ArrayList<Drive> engines = new ArrayList<>();
 
         engines.add(new Car());
@@ -33,14 +33,8 @@ public class newMain {
 
         return engines;
     }
-    public LinkedList<Drive> getTransmission() {
-        LinkedList<Drive> transmission = new LinkedList<>();
-        transmission.add(new SUV());
-        transmission.add(new Pajero());
-        return transmission;
-    }
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         try {
             for (Drive engine : getEngines()) {
@@ -54,8 +48,15 @@ public class newMain {
         //catch(ExecutionControl.NotImplementedException ex){
         //    System.out.println(ex.toString());
         //}
-        catch(Exception ex){
-            System.out.println(ex.toString());
+        catch (Exception ex) {
+            System.out.println(ex);
         }
+    }
+
+    public LinkedList<Drive> getTransmission() {
+        LinkedList<Drive> transmission = new LinkedList<>();
+        transmission.add(new SUV());
+        transmission.add(new Pajero());
+        return transmission;
     }
 }

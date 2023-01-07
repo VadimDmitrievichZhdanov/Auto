@@ -13,6 +13,13 @@ public class Triangle implements Shape {
 
     }
 
+    public static void main(String[] args) {
+        Triangle t1 = new Triangle(5, 6, 7);
+        Triangle t2 = new Triangle(8, 9, 10);
+        System.out.println(t1.getArea());
+        System.out.println(t2.getArea());
+    }
+
     @Override
     public double getArea() {
         double semi_length = ((lengthA + lengthB + lengthC) / 2);
@@ -20,35 +27,28 @@ public class Triangle implements Shape {
                 (semi_length - lengthB) * (semi_length - lengthC));
     }
 
-    public void setLengthA(double lengthA) {
-        this.lengthA = lengthA;
-    }
-
     public double getLengthA() {
         return lengthA;
     }
 
-    public void setLengthB(double lengthB) {
-        this.lengthB = lengthB;
+    public void setLengthA(double lengthA) {
+        this.lengthA = lengthA;
     }
 
     public double getLengthB() {
         return lengthB;
     }
 
-    public void setLengthC(double lengthC) {
-        this.lengthC = lengthC;
+    public void setLengthB(double lengthB) {
+        this.lengthB = lengthB;
     }
 
     public double getLengthC() {
         return lengthC;
     }
 
-    public static void main(String[] args) {
-        Triangle t567 = new Triangle(5, 6, 7);
-        Triangle t8910 = new Triangle(8, 9, 10);
-        System.out.println(t8910.getArea());
-        System.out.println(t567.getArea());
+    public void setLengthC(double lengthC) {
+        this.lengthC = lengthC;
     }
 }
 

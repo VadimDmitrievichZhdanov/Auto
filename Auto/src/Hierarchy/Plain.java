@@ -1,6 +1,6 @@
 package Hierarchy;
 
-public class Plain implements Drive{
+public class Plain implements Drive {
     @Override
     public void driveOn() {
         // 10 000 lines of code

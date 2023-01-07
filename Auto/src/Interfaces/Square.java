@@ -2,6 +2,8 @@ package Interfaces;
 
 public class Square implements Shape {
 
+    private double length;
+
     public Square() {
         length = 0;
     }
@@ -15,13 +17,11 @@ public class Square implements Shape {
         return length * length;
     }
 
-    public void setLength(double length) {
-        this.length = length;
-    }
-
     public double getLength() {
         return length;
     }
 
-    private double length;
+    public void setLength(double length) {
+        this.length = length;
+    }
 }

@@ -1,5 +1,6 @@
 package Hierarchy;
-public class Bike implements Drive{
+
+public class Bike implements Drive {
     @Override
     public void driveOn() {
 

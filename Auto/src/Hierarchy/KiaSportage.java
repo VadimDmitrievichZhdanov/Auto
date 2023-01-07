@@ -1,4 +1,4 @@
 package Hierarchy;
 
-public class KiaSportage extends SUV{
+public class KiaSportage extends SUV {
 }

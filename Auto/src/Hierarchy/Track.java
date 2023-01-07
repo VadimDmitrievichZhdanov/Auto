@@ -1,6 +1,6 @@
 package Hierarchy;
 
-public class Track extends Car{
+public class Track extends Car {
     @Override
     public void driveOn() {
         super.driveOn();

@@ -1,6 +1,6 @@
 package Hierarchy;
 
-public class Minivan extends Car{
+public class Minivan extends Car {
     @Override
     public void driveOn() {
         super.driveOn();

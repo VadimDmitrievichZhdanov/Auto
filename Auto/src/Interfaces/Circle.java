@@ -2,7 +2,7 @@ package Interfaces;
 
 public class Circle implements Shape {
 
-    static final double PI = 3.14;
+    static final double pi = 3.14;
     private double radius;
 
     public Circle() {
@@ -24,7 +24,7 @@ public class Circle implements Shape {
     @Override
     public double getArea() {
         //return PI * radius * radius;
-        return PI * Math.pow(radius, 2);
+        return pi * Math.pow(radius, 2);
     }
 }
 

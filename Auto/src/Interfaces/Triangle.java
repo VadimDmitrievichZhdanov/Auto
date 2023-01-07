@@ -14,10 +14,10 @@ public class Triangle implements Shape {
     }
 
     public static void main(String[] args) {
-        Triangle t1 = new Triangle(5, 6, 7);
-        Triangle t2 = new Triangle(8, 9, 10);
-        System.out.println(t1.getArea());
-        System.out.println(t2.getArea());
+        Triangle triangle1 = new Triangle(5, 6, 7);
+        Triangle triangle2 = new Triangle(8, 9, 10);
+        System.out.println(triangle1.getArea());
+        System.out.println(triangle2.getArea());
     }
 
     @Override

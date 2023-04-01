@@ -5,7 +5,6 @@ public class Track extends Car {
     public void driveOn() {
         super.driveOn();
         changeGear();
-        // + 150 special lines due to AWD
         changeGear();
     }
 
@@ -13,6 +12,5 @@ public class Track extends Car {
     public void driveOf() throws Exception {
         super.driveOf();
         changeGear();
-        // + 20 special lines due to AWD
     }
 }

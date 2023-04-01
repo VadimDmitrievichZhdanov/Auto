@@ -3,12 +3,10 @@ package Hierarchy;
 public class Plain implements Drive {
     @Override
     public void driveOn() {
-        // 10 000 lines of code
     }
 
     @Override
-    public void driveOf() throws Exception/*ExecutionControl.NotImplementedException*/ {
-        //throw new ExecutionControl.NotImplementedException("Can't implement driveOf for plain");
+    public void driveOf() throws Exception{
         throw new Exception();
     }
 }

@@ -62,7 +62,8 @@ public class Calculator {
         return a / b;
     }
 
-    public BigInteger pow(BigInteger a, int b) {
-        return a.pow(b);
+    public double pow(double a, double b) {
+        return Math.pow(a, b);
     }
+
 }
